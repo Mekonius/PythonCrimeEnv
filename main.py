@@ -1,1 +1,3 @@
-print("dav løven")
+import folium # map rendering library
+
+print(folium)
