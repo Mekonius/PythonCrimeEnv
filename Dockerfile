@@ -15,7 +15,6 @@ RUN pip install folium==0.14.0
 WORKDIR /app
 
 COPY crime_data.ipynb .
-COPY Crime_Data_from_2010_to_2019.csv .
 
 # Expose the Jupyter Notebook port
 EXPOSE 8888
